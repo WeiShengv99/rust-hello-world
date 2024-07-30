@@ -1,4 +1,4 @@
-use std::{cmp::Ordering, io};
+use std::{ cmp::Ordering, io };
 
 use rand::Rng;
 
@@ -13,9 +13,7 @@ fn main() {
         // value must clear, because its reference value &guess_string, so value must recreate
         let mut guess_string = String::new();
 
-        io::stdin()
-            .read_line(&mut guess_string)
-            .expect("You give a invalid value");
+        io::stdin().read_line(&mut guess_string).expect("You give a invalid value");
 
         println!("Your guess number is : {}", guess_string);
 

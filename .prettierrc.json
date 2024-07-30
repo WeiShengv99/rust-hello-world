@@ -1,6 +1,13 @@
 {
-  "useTabs": false,
-  "tabWidth": 2,
-  "printWidth": 100,
-  "endOfLine": "lf"
+    "useTabs": false,
+    "tabWidth": 4,
+    "printWidth": 100,
+    "endOfLine": "lf",
+    "singleQuote": false,
+    "overrides": [
+        {
+            "files": ["tests/*.rs"],
+            "options": { "printWidth": 80 }
+        }
+    ]
 }
