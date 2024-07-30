@@ -1,23 +1,14 @@
 # Rust 新手尝试
 
-打包该项目
-
-```
-cargo build
-```
-
-运行该项目
-
-```
-cargo run
-```
-
-项目构建后的二进制文件位于 target debug 里
-
-prod 打包
-
-```
+rustup update
+rustup show
+rustup --version
+cargo run/test
 cargo build --release
-```
+cargo add xx --dev --build 
+cargo rm xx
 
-Rust里的包叫做 crate  包网站  [crates.io](https://crates.io)
+
+rsproxy.cn 源
+~/.cargo/config
+具体修改方式直接去该网站
